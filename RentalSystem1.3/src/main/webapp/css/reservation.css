@@ -1,4 +1,4 @@
-/* Estilos para el formulario */
+
 body{
 	display: grid;
     min-height: 100vh;
@@ -37,7 +37,7 @@ header {
 }
 
 .formulario input {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin-top: 5px;
     border: 1px solid #ccc;
@@ -60,6 +60,18 @@ nav ul {
     text-align: center;
     padding: 0;
 }
+.containerForm { 
+	width: 500px;
+    height: auto;
+	
+} 
+
+.mainContainer {
+	display: flex;
+	justify-content: center;
+
+}
+
 nav li {
 	color:#fff;
     display: inline;
@@ -72,3 +84,4 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
